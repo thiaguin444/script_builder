@@ -29,17 +29,10 @@ mkdir lineage2
 cd lineage2
 
 # init repo
-repo init -u https://github.com/DotOS/manifest.git -b dot11 --depth=1
+repo init -u https://github.com/PixelExperience/manifest -b thirteen --depth=1
 
 # clone manifest
-git clone https://github.com/thiaguin444/local_manifests_odessa.git -b main .repo/local_manifests
+git clone https://github.com/thiaguin444/local_manifests_odessa.git -b los20 .repo/local_manifests
 
 # sync
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j8
-
-# clone motocam
-git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_whitney.git -b eleven-arm64 packages/apps/MotCamera2
-
-git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_overlay.git -b ten packages/apps/MotCamera2-overlay
-
-git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp
