@@ -23,10 +23,10 @@ git config --global user.name Thiago
 git config --global user.email thigo6617@gmail.com
 
 # make dir
-mkdir lineage2
+mkdir lineage23
 
 # cd
-cd lineage2
+cd lineage23
 
 # init repo
 repo init -u https://github.com/PixelOS-AOSP/manifest.git -b thirteen --depth=1
