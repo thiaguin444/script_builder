@@ -34,7 +34,7 @@ mkdir lineage2
 cd lineage2
 
 # init repo
-repo init -u https://github.com/CherishOS/android_manifest.git -b twelve --depth=1
+repo init -u https://github.com/thiaguin444/android_manifest.git -b twelve --depth=1
 
 # clone manifest
 git clone https://github.com/thiaguin444/local_manifests_odessa.git -b los21 .repo/local_manifests
