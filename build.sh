@@ -32,7 +32,7 @@ cd lineage23
 repo init -u https://github.com/PixelOS-AOSP/manifest.git -b thirteen --depth=1
 
 # clone manifest
-git clone https://github.com/thiaguin444/local_manifests_odessa.git -b los20 .repo/local_manifests
+git clone https://github.com/thiaguin444/local_manifests_odessa.git -b los21 .repo/local_manifests
 
 # sync
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j8
