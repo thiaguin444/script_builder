@@ -32,7 +32,7 @@ cd lineage2
 repo init -u https://github.com/DotOS/manifest.git -b dot11 --depth=1
 
 # clone manifest
-git clone https://github.com/thiaguin444/local_manifests_odessa.git -b main .repo/local_manifests
+git clone https://github.com/thiaguin444/local_manifests_odessa.git -b los21 .repo/local_manifests
 
 # sync
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j8
