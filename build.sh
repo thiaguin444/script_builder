@@ -29,10 +29,10 @@ mkdir lineage23
 cd lineage23
 
 # init repo
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b thirteen --depth=1
+repo init -u https://github.com/PixelExperience-LEGACY-edition/manifest.git -b thirteen-plus --depth=1 --git-lfs
 
 # clone manifest
-git clone https://github.com/thiaguin444/local_manifests_odessa.git -b los21 .repo/local_manifests
+git clone https://github.com/thiaguin444/local_manifests_odessa.git -b los20 .repo/local_manifests
 
 # sync
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j8
