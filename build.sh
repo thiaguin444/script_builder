@@ -29,7 +29,7 @@ mkdir lineage23
 cd lineage23
 
 # init repo
-repo init -u https://github.com/pyo3377/manifest_aosp.git -b thirteen --git-lfs --depth=1
+repo init -u https://github.com/yahyatoubali/manifest.git -b thirteen-plus --git-lfs --depth=1
 
 # clone manifest
 git clone https://github.com/thiaguin444/local_manifests_odessa.git -b los20 .repo/local_manifests
